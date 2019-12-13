@@ -25,14 +25,6 @@ function IndexPage() {
       });
   };
 
-
-// async function fetchJSON() {
-//   const response = await fetch(`http://doo.zone/api/method/auth.php?myusername=jakepeg@gmail.com&mypassword=worm1`);
-//   const data = await response.json();
-//   let myChildren = data.response;
-//   console.log(myChildren);
-// }
-
   return (
   <Layout>
     <SEO title="Home" />
