@@ -13,7 +13,7 @@ function IndexPage() {
   
   const fetchJSON = () => {
     axios
-      .get(`https://snorm.co/api/method/auth.php?myusername=jakepeg@gmail.com&mypassword=worm1`)
+      .get(`https://www.snorm.co/api/method/auth.php?myusername=jakepeg@gmail.com&mypassword=worm1`)
       .then(res => {
          console.log(res.data);
       })
